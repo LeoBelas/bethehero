@@ -113,3 +113,7 @@ dist
 .yarn/unplugged
 .yarn/build-state.yml
 .pnp.*
+
+#sqlite file
+.sqlite
+backend/src/database/db.sqlite
