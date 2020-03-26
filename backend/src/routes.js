@@ -15,6 +15,6 @@ routes.delete('/incidents/:id', incidentController.delete)
 
 routes.get('/profile', profileController.index)
 
-routes.get('/sessions', sessionsController.create)
+routes.post('/sessions', sessionsController.create)
 
 module.exports = routes
